@@ -1,32 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OLYA DIVE</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OLYA DIVE — Equipamiento premium de buceo</title>
+  <meta name="description" content="OLYA DIVE. El espíritu del Olimpo bajo las olas. Equipamiento premium para exploradores que buscan descubrir nuevos mundos." />
+  <link rel="icon" type="image/png" href="assets/logo-olya-dive.png" />
+
+  <!-- Tipografías: serif ceremonial para titulares + sans neutra para el cuerpo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="hero">
-  <div class="logo">OLYA</div>
-  <p class="subtitle">El espíritu del Olimpo bajo las olas</p>
-  <p>Equipamiento premium para exploradores que buscan descubrir nuevos mundos.</p>
-  <a class="button" href="https://wa.me/34624039211?text=Hola,%20quiero%20información%20sobre%20los%20equipos%20OLYA">Comprar por WhatsApp</a>
-</header>
 
-<section>
-<h2>Catálogo</h2>
-<div class="products">
-<div class="card"><h3>OLYA Vision Pro</h3><strong>89,90 €</strong><p>Máscara panorámica de cristal templado y diseño profesional.</p><a class="button" href="https://wa.me/34624039211?text=Hola,%20quiero%20comprar%20OLYA%20Vision%20Pro">Pedir ahora</a></div>
-<div class="card"><h3>OLYA Neptune X</h3><strong>249,90 €</strong><p>Regulador premium para exploraciones profundas.</p><a class="button" href="https://wa.me/34624039211?text=Hola,%20quiero%20comprar%20OLYA%20Neptune%20X">Pedir ahora</a></div>
-<div class="card"><h3>OLYA Tritón</h3><strong>119,90 €</strong><p>Aletas de alto rendimiento inspiradas en el océano.</p><a class="button" href="https://wa.me/34624039211?text=Hola,%20quiero%20comprar%20OLYA%20Tritón">Pedir ahora</a></div>
-</div>
-</section>
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#inicio" class="brand">
+        <img src="assets/logo-olya-dive.png" alt="OLYA DIVE" class="brand-mark" />
+        <span class="brand-word">OLYA <em>DIVE</em></span>
+      </a>
 
-<section class="contact">
-<h2>Contacto</h2>
-<p>Atención directa por WhatsApp</p>
-<a class="button" href="https://wa.me/34624039211?text=Hola,%20quiero%20información%20sobre%20OLYA">624039211</a>
-</section>
+      <nav class="main-nav" id="main-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost wa-link" data-wa-message="Hola OLYA DIVE, quiero más información sobre sus productos." href="#">
+          <svg class="icon-wa" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.3.6 4.5 1.8 6.4L4 29l7.8-1.7c1.9 1 4 1.6 6.2 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.6 1 1-4.5-.3-.4C4.9 17.8 4.3 16 4.3 15 4.3 9 9 4.3 16 4.3c6.4 0 12 5.4 12 10.7S22.4 24.8 16 24.8zm6.1-8.1c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.6.1-.2 0-.5 0-.6-.1-.2-.7-1.8-1-2.4-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+          WhatsApp
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero-atmosphere" aria-hidden="true">
+        <div class="light-rays"></div>
+        <div class="bubbles">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <img src="assets/logo-olya-dive.png" alt="Emblema OLYA DIVE: círculo dorado con tridente" class="hero-emblem" />
+        <p class="eyebrow">Equipamiento premium de buceo</p>
+        <h1>El espíritu del Olimpo<br>bajo las olas</h1>
+        <p class="hero-lead">Equipamiento premium para exploradores que buscan descubrir nuevos mundos.</p>
+        <a href="#" class="btn btn-gold wa-link" data-wa-message="Hola OLYA DIVE, quiero comprar equipo de buceo.">
+          <svg class="icon-wa" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.3.6 4.5 1.8 6.4L4 29l7.8-1.7c1.9 1 4 1.6 6.2 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.6 1 1-4.5-.3-.4C4.9 17.8 4.3 16 4.3 15 4.3 9 9 4.3 16 4.3c6.4 0 12 5.4 12 10.7S22.4 24.8 16 24.8zm6.1-8.1c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.6.1-.2 0-.5 0-.6-.1-.2-.7-1.8-1-2.4-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+          <span>Comprar por WhatsApp<br><small class="wa-number-slot"></small></span>
+        </a>
+      </div>
+
+      <a href="#catalogo" class="scroll-cue" aria-label="Bajar al catálogo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== CATÁLOGO ===== -->
+    <section class="catalog" id="catalogo">
+      <div class="section-heading reveal">
+        <h2>Catálogo</h2>
+        <div class="trident-divider" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><path d="M20 4v20M12 8c0 4 3 7 8 7s8-3 8-7M20 24l-6 12M20 24l6 12M14 6l6 4 6-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Las tarjetas de producto se generan dinámicamente desde script.js (array PRODUCTS) -->
+      </div>
+    </section>
+
+    <!-- ===== CTA WHATSAPP ===== -->
+    <section class="cta-band" id="contacto">
+      <div class="cta-content reveal">
+        <p class="eyebrow">¿Listo para explorar?</p>
+        <h2>Hablemos por WhatsApp</h2>
+        <p class="cta-lead">Estamos disponibles para ayudarte en todo lo que necesites.</p>
+        <a href="#" class="btn btn-gold wa-link" data-wa-message="Hola OLYA DIVE, tengo una consulta.">
+          <svg class="icon-wa" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.3.6 4.5 1.8 6.4L4 29l7.8-1.7c1.9 1 4 1.6 6.2 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.6 1 1-4.5-.3-.4C4.9 17.8 4.3 16 4.3 15 4.3 9 9 4.3 16 4.3c6.4 0 12 5.4 12 10.7S22.4 24.8 16 24.8zm6.1-8.1c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.6.1-.2 0-.5 0-.6-.1-.2-.7-1.8-1-2.4-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+          <span>Contactar por WhatsApp<br><small class="wa-number-slot"></small></span>
+        </a>
+      </div>
+      <svg class="cta-trident" viewBox="0 0 200 400" aria-hidden="true">
+        <path d="M100 20v240M40 60c0 40 30 70 60 70s60-30 60-70M100 260l-50 110M100 260l50 110M60 30l40 30 40-30" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <img src="assets/logo-olya-dive.png" alt="OLYA DIVE" class="footer-mark" />
+    <p class="footer-copy">© <span id="year"></span> OLYA DIVE. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
