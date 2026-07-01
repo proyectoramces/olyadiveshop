@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Relojes mundiales — OLYA DIVE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Relojes mundiales</h1>
+      <p class="lead">Hora actual en distintas zonas horarias. Añade la que necesites.</p>
+    </header>
+
+    <section class="controls">
+      <label for="tz-select">Zonas comunes:</label>
+      <select id="tz-select" aria-label="Seleccionar zona horaria"></select>
+
+      <label for="tz-custom" class="sr-only">Zona horaria personalizada (IANA)</label>
+      <input id="tz-custom" placeholder="Ej: America/Bogota o Europe/Madrid" />
+
+      <button id="add-btn">Añadir zona</button>
+    </section>
+
+    <section id="clocks" class="clocks" aria-live="polite"></section>
+
+    <footer>
+      <small>Basado en Intl.DateTimeFormat — introduce zonas IANA (por ejemplo: Europe/Madrid).</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
