@@ -1,0 +1,6 @@
+*{box-sizing:border-box}body{margin:0;background:#020b14;color:#e8e8e8;font-family:Georgia,serif;text-align:center}
+.hero{min-height:90vh;padding:80px 20px;background:radial-gradient(circle,#12385a,#020711)}
+.logo{font-size:90px;letter-spacing:10px;color:#d8d8d8;text-shadow:0 0 25px #8bbcff;border:2px solid #c9a44d;border-radius:50%;display:inline-block;padding:40px}
+.subtitle{font-size:28px;color:#d7b46a}.button{display:inline-block;margin:20px;padding:15px 35px;border-radius:30px;background:#c9a44d;color:#081018;text-decoration:none;font-weight:bold}
+section{padding:50px 20px}.products{display:flex;gap:25px;justify-content:center;flex-wrap:wrap}.card{max-width:300px;padding:30px;background:#071522;border:1px solid #bfa15a;border-radius:20px;box-shadow:0 0 20px #000}
+.contact{background:#050b12}
